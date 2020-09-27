@@ -1,8 +1,8 @@
-import React from "react";
-import { Box, Link, Flex, Button } from "@chakra-ui/core";
-import NextLink from "next/link";
-import { useMeQuery, useLogoutMutation } from "../generated/graphql";
-import { isServer } from "../utils/isServer";
+import React from 'react';
+import { Box, Link, Flex, Button } from '@chakra-ui/core';
+import NextLink from 'next/link';
+import { useMeQuery, useLogoutMutation } from '../generated/graphql';
+import { isServer } from '../utils/isServer';
 // import { createUrqlClient } from "../utils/createUrqlClient";
 // import { withUrqlClient } from "next-urql";
 
@@ -47,7 +47,7 @@ const NavBar: React.FC<Props> = ({}) => {
 
   return (
     <Flex bg="tan" p={4}>
-      <Box ml={"auto"}>{body}</Box>
+      <Box ml={'auto'}>{body}</Box>
     </Flex>
   );
 };
